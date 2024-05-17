@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Async_Image: View {
+struct Async_Image: View, Hashable {
     var body: some View {
         NavigationStack {
             
