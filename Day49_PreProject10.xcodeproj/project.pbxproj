@@ -14,6 +14,9 @@
 		B68154CA2BF5F5CE00095C19 /* URLSession_task_Async_Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68154C92BF5F5CE00095C19 /* URLSession_task_Async_Await.swift */; };
 		B68154CC2BF748E300095C19 /* Async_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68154CB2BF748E300095C19 /* Async_Image.swift */; };
 		B68154CE2BF7532200095C19 /* ValidatingFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68154CD2BF7532200095C19 /* ValidatingFormData.swift */; };
+		B68154F12BF89F1B00095C19 /* CodableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68154F02BF89F1B00095C19 /* CodableConformance.swift */; };
+		B68BF57A2BF8A4AA00B2CCE2 /* HapticEffectEasyWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BF5792BF8A4AA00B2CCE2 /* HapticEffectEasyWay.swift */; };
+		B68BF57C2BF8A4B700B2CCE2 /* HapticEffectCompleteWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BF57B2BF8A4B700B2CCE2 /* HapticEffectCompleteWay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		B68154C92BF5F5CE00095C19 /* URLSession_task_Async_Await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_task_Async_Await.swift; sourceTree = "<group>"; };
 		B68154CB2BF748E300095C19 /* Async_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async_Image.swift; sourceTree = "<group>"; };
 		B68154CD2BF7532200095C19 /* ValidatingFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingFormData.swift; sourceTree = "<group>"; };
+		B68154F02BF89F1B00095C19 /* CodableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformance.swift; sourceTree = "<group>"; };
+		B68BF5792BF8A4AA00B2CCE2 /* HapticEffectEasyWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffectEasyWay.swift; sourceTree = "<group>"; };
+		B68BF57B2BF8A4B700B2CCE2 /* HapticEffectCompleteWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffectCompleteWay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			children = (
 				B68154BB2BF5F44400095C19 /* Day49_PreProject10App.swift */,
 				B68154BD2BF5F44400095C19 /* ContentView.swift */,
+				B68154F02BF89F1B00095C19 /* CodableConformance.swift */,
+				B68BF5792BF8A4AA00B2CCE2 /* HapticEffectEasyWay.swift */,
+				B68BF57B2BF8A4B700B2CCE2 /* HapticEffectCompleteWay.swift */,
 				B68154C92BF5F5CE00095C19 /* URLSession_task_Async_Await.swift */,
 				B68154CB2BF748E300095C19 /* Async_Image.swift */,
 				B68154CD2BF7532200095C19 /* ValidatingFormData.swift */,
@@ -146,10 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68BF57C2BF8A4B700B2CCE2 /* HapticEffectCompleteWay.swift in Sources */,
 				B68154CC2BF748E300095C19 /* Async_Image.swift in Sources */,
 				B68154CE2BF7532200095C19 /* ValidatingFormData.swift in Sources */,
 				B68154CA2BF5F5CE00095C19 /* URLSession_task_Async_Await.swift in Sources */,
+				B68BF57A2BF8A4AA00B2CCE2 /* HapticEffectEasyWay.swift in Sources */,
 				B68154BE2BF5F44400095C19 /* ContentView.swift in Sources */,
+				B68154F12BF89F1B00095C19 /* CodableConformance.swift in Sources */,
 				B68154BC2BF5F44400095C19 /* Day49_PreProject10App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
