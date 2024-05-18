@@ -38,7 +38,8 @@ struct CodableConformance: View {
     func encodeMusic() {
         let data = try! JSONEncoder().encode(Music())
         let str = String(decoding: data, as: UTF8.self)
-        //this will print correct data on JSON format: {"name":"Taylor"}
+        print(str)
+        //this will print correct data on JSON format: {"musicTitle":"Eu me amarrei"}
     }
     
 }
